@@ -3,13 +3,15 @@
  * Created by swxy on 2017/4/1.
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 import styles from './index.css';
 
-const App = () => (
-    <div className={styles.app}>
-        <h2>Hello, </h2>
-    </div>
-);
-
-export default App;
+export default class Loop extends Component {
+    render() {
+        return (
+            <div className={styles.app}>
+                <h2>Hello, dd</h2>
+            </div>
+        )
+    }
+}
