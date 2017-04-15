@@ -64,8 +64,12 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader?modules', /*'postcss-loader'*/],
+                use: ['style-loader', "css-loader" ,"less-loader"/*'css-loader?modules', 'postcss-loader'*/],
             },
+            {
+                test: /\.less$/,
+                use: ["style-loader", "css-loader" ,"less-loader"]
+            }
         ],
     },
 

@@ -10,8 +10,9 @@ import {AppContainer} from 'react-hot-loader';
 
 import Loop from './loop';
 import Test from './test';
+import Form from './form';
 
-const Comp = {Loop, Test};
+const Comp = {Loop, Test, Form};
 
 const render = (Component) => {
     ReactDOM.render(

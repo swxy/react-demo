@@ -4,12 +4,12 @@
  */
 
 import React, {Component} from 'react';
-import styles from './index.css';
+// import styles from './index.css';
 
 export default class Loop extends Component {
     render() {
         return (
-            <div className={styles.app}>
+            <div>
                 <h2>Hello, dd</h2>
             </div>
         )
